@@ -10,4 +10,4 @@ jobs:
         with:
           name: XCraftMan52/Landing-Pages/Landing-Pages
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ github.token }}
